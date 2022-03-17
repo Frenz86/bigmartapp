@@ -25,7 +25,7 @@ async def predict_get(data: Feature_type= Depends()):              # depends() i
         data= data.iloc[1:]
         
         y_pred = model.predict(data)[0]
-        return {"prediction":y_pred}
+        return {y_pred}
     except:
         return {"prediction": "error"}
 
