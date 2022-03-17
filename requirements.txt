@@ -1,0 +1,11 @@
+pandas
+numpy
+uvloop
+httptools #https heroku
+fastapi
+gunicorn
+uvicorn
+joblib
+scikit-learn
+starlette
+h11

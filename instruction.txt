@@ -1,0 +1,2 @@
+Execute this command to make the script runnable for you : chmod u+x run.sh
+Run it : ./run.sh
